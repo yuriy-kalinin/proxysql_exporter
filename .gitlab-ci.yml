@@ -1,0 +1,7 @@
+variables:
+  DISABLE_TAGGER: 1
+  DOCKERFILE_PATH: Dockerfile
+
+include:
+  - project: social-tech/infrastructure/gitlab-templates
+    file: /entrypoints/only-build.yaml
