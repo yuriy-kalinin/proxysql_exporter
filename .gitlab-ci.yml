@@ -1,5 +1,6 @@
 variables:
   DISABLE_TAGGER: 1
+  PUSH_TO_PRODUCTION_REGISTRY: 1
   DOCKERFILE_PATH: Dockerfile
 
 include:
